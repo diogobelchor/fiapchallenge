@@ -8,7 +8,7 @@ pip install flask
 pip install Flask-RESTful
 pip install mysql-connector-python
 apt install git -y
-mkdir /bin/helpchallenge
-git clone https://github.com/engklebercarvalho/helpchallenge/ /bin/helpchallenge
-cd /bin/helpchallenge/appazure
+mkdir /bin/fiapchallenge
+git clone https://github.com/diogobelchor/fiapchallenge /bin/fiapchallenge
+cd /bin/fiapchallenge/appazure
 python3 app.py

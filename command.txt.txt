@@ -4,6 +4,16 @@ Set-Alias -Name terraform -Value "D:\Dowloands\terraform.exe" -Force
 
 cls
 terraform init
-terraform plan -out helpchallenge.plan
-terraform apply "helpchallenge.plan"
+terraform plan -out fiapchallenge.plan
+terraform apply "fiapchallenge.plan"
 terraform destroy -auto-approve
+
+
+***deletar antes do upload do git***
+.terraform
+.terraform.lock.hcl
+.terraform.tfstate.lock
+fiapchallenge.plan
+terraform.tfstate
+terraform.tfstate.backup
+

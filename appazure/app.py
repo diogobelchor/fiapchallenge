@@ -6,7 +6,7 @@ mydb = mysql.connector.connect(
     host="10.10.10.6",
     user="svc_Linux",
     password="Password1234!",
-    database="PSI5120"
+    database="FIAPCHALLENGE"
     )
 
 mycursor = mydb.cursor()
