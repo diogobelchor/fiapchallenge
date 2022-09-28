@@ -1,0 +1,9 @@
+Set-Alias -Name terraform -Value "D:\Dowloands\terraform.exe" -Force
+
+
+
+cls
+terraform init
+terraform plan -out helpchallenge.plan
+terraform apply "helpchallenge.plan"
+terraform destroy -auto-approve

@@ -1,0 +1,12 @@
+location        = "brazilsouth"
+resource_group  = "RG-DEV-FIAP-CHL"
+storage_account = "sadevdiapchl"
+virtual_network = "VNET-DEV-FIAP-CHL"
+virtual_machine_frontend = "VM-DEV-FIAP-CHL-FRONT"
+virtual_machine_backend = "VM-DEV-FIAP-CHL-BACK"
+virtual_machine_database = "VM-DEV-FIAP-CHL-DB"
+
+azure_subscription_id = "b6207004-b306-40f0-a6e0-c815c532869a"
+azure_client_id = "7168c3e3-c906-4b25-a07d-88417da89971"
+azure_client_secret = "KKA8Q~hP-qVMHFjEGiVEG6vbLwS72AKxJ41yIa1T"
+azure_tenant_id = "225d561c-8bb2-4b6e-93fe-83e77ede97a3"
